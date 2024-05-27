@@ -39,8 +39,6 @@ let action = "";
 window.onload = function() {
     buildDeck();
     shuffleDeck(); 
-    getScore();
-    SaveScore();
     document.getElementById("balance").textContent = "Balance: $" + balance; 
     document.getElementById("results").textContent = message;
 }
@@ -48,72 +46,6 @@ window.onload = function() {
 function sleep(ms = 0){
     return new Promise(resolve => setTimeout(resolve, ms));
 }
-
-function logGameData() {
-    const gameData = {
-        dealerSum: dealerSum,
-        yourSumA: yourSumA,
-        yourSumB: yourSumB,
-        dealerCards: dealerCards,
-        yourCardsA: yourCardsA,
-        yourCardsB: yourCardsB,
-        balance: balance,
-        bet: bet,
-        action: action,
-        outcome: outcome,
-    };
-    sendGameDataToServer(gameData);
-}
-
-function sendGameDataToServer(gameData) {
-    fetch('/saveGameData', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(gameData)
-    })
-    .then(response => response.json())
-    .then(data => {
-        console.log('Success:', data);
-    })
-    .catch((error) => {
-        console.error('Error:', error);
-    });
-}
-
-async function play100Games() {
-    for (let i = 0; i < 10; i++) {
-        startGame(); // Start a new game
-        let randomAction = -1; // Initialize to a value other than 3
-
-        // Randomly decide on actions until the game is over
-        while (randomAction !== 3) {
-            randomAction = Math.floor(Math.random() * 5); // Generate a random number from 0 to 4
-            switch (randomAction) {
-                case 0:
-                    hit();
-                    sleep(10);
-                    break;
-                case 1:
-                    split();
-                    sleep(10);
-                    break;
-                case 2:
-                    double();
-                    sleep(10);
-                    break;
-                case 3:
-                    stay();
-                    break;
-                default:
-                    break;
-            }
-        }
-    }
-}
-
-
 
 const switchInput = document.getElementById('switch');
 const displayNumber = document.getElementById('displayNumber');
@@ -154,55 +86,6 @@ $(document).ready(function() {
         return false;
     });
 });
-
-function SaveScore() {
-    const formData = new FormData();
-    formData.set('score', balance);
-    fetch('/setScore', {
-        method: 'POST',
-        body: formData,
-        credentials: 'same-origin'
-    })
-    .then(response => {
-        if (response.ok) {
-            console.log('Score saved successfully');
-        } else {
-            console.error('Failed to save score');
-        }
-    })
-    .catch(error => {
-        console.error('Error saving score:', error);
-    });
-}
-
-function getScore() {
-    fetch('/getScore', {
-        method: 'GET',
-        credentials: 'same-origin'
-    })
-    .then(response => {
-        if (response.ok) {
-            return response.json();
-        } else {
-            throw new Error('Failed to fetch score');
-        } 
-    })
-    .then(data => {
-        console.log('Received score data:', data); // Check the received data
-        const score = data.score;
-        console.log('Parsed score:', score); // Check the parsed score
-        balance = score;
-        console.log('Updated balance:', balance); // Check if balance is updated
-
-        // Update the balance on the page
-        document.getElementById("balance").textContent = "Balance: $" + balance;
-    })
-    .catch(error => {
-        console.error('Error fetching score:', error);
-    });
-}
-
-
 
 function buildDeck() {
     let values = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"];
@@ -285,14 +168,14 @@ async function startGame() {
     dealerSum += getValueFirst(hidden);
     dealerAceCount += checkAce(hidden);
     let cardImg = document.createElement("img");
-    cardImg.src = "../static/Back.png";
+    cardImg.src = "/static/Back.png";
     cardImg.id = "dealer-card-" + hidden;
     cardImg.className = "cards";
     cardImg.classList.add("dealerAnimation" + (dealerCards.length + 1));
     document.getElementById("card-container").append(cardImg);
     cardImg = document.createElement("img");
     let card = deck.pop();
-    cardImg.src = "../static/" + card + ".png";
+    cardImg.src = "/static/" + card + ".png";
     dealerSum += getValue(card);
     dealerAceCount += checkAce(card);
     cardImg.id = "dealer-card-" + card;
@@ -303,7 +186,7 @@ async function startGame() {
     for (let i = 0; i < 2; i++) {
         let cardImg = document.createElement("img");
         let card = deck.pop();
-        cardImg.src = "../static/" + card + ".png";
+        cardImg.src = "/static/" + card + ".png";
         yourSumA += getValue(card);
         yourAceCountA += checkAce(card);
         yourCardsA.push( getValue(card) );
@@ -350,7 +233,6 @@ function split() {
         console.log("Element 'player-card-2' not found");
     }
     action = "split"
-    logGameData();
 }
 
 function double(){
@@ -381,7 +263,6 @@ function double(){
         canHit = false;
         betA = bet * 2;
         action = "doubleA"
-        logGameData();
     } else {
         yourSumB += getValue(card);
         yourAceCountB += checkAce(card);
@@ -392,7 +273,6 @@ function double(){
         canHit = false;
         betB = bet * 2;
         action = "doubleB"
-        logGameData();
     }
     stay();
 }
@@ -420,7 +300,6 @@ function hit() {
         }
         document.getElementById("card-container").append(cardImg);
         action = "hitA"
-        logGameData();
         if (reduceAce(yourSumA, yourAceCountA) >= 21) { 
             canHit = false;
             stay();
@@ -433,7 +312,6 @@ function hit() {
         cardImg.classList.add("playerAnimationB" + yourCardsB.length);
         document.getElementById("card-container").append(cardImg);
         action = "hitB"
-        logGameData();
         if (reduceAce(yourSumB, yourAceCountB) >= 21) { 
             canHit = false;
             stay();
@@ -477,7 +355,6 @@ async function stay() {
     console.log("yourSumA: " + yourSumA);
 
     action = "stay"
-    logGameData();
     if(yourSumA == 21 && yourCardsA.length == 2){
         message = "21!";
         balance += parseFloat(betA * 1.5);
@@ -534,7 +411,6 @@ async function stay() {
     document.getElementById("balance").textContent = "Balance: $" + balance;
  
     console.log("balance: " + balance);
-    SaveScore();
 }
 
 function getValue(card) {

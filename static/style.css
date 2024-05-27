@@ -1,0 +1,574 @@
+body {
+    background-image: url("background.png");
+    background-repeat: repeat;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box; /* Include padding and borders in the element's total width */
+    max-width: 100%; /* Prevent any element from being wider than the viewport */
+}
+
+.login {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff; /* Button background color */
+    color: #000000; /* Button text color */
+    text-decoration: none; /* Remove underline */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+
+  /* Set a style for all buttons */
+  .button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 0px 0px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Add a hover effect for buttons */
+  .button:hover {
+    opacity: 0.8;
+  }
+
+
+  /* Style for number display */
+  .count {
+    position: absolute;
+    bottom: 90px;
+    right: 50px;
+    color:aliceblue;
+    font-size: 20px;
+  }
+
+  /* Style for switch */
+  .switch {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* Style for slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  /* Style for slider when it's turned on */
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 975.98px) {
+    .table1 {
+        position: absolute; 
+        top: -4%;
+        height: 115%;
+        width: 100%;
+        margin-top: auto;
+    }
+
+
+    .cards{
+        position: absolute;
+        left: 50%;
+        top: 34%;
+        width: 63px;
+        height: 70px;
+        transform: translate(-50%, 0%);
+    }
+
+    .centered-div {
+        position: absolute;
+        top: 48%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: lightgray;
+    }
+
+    .number {
+        position: absolute; 
+        right: .5%;     
+        top: 10%;        
+        margin: 0;      
+    }
+
+    .plus {
+        width: 20px;
+        height: 20px;
+        background: #f2f2f2;
+        border-radius: 50px;
+        padding: 0; 
+        border: 1px solid #2200ff;
+        vertical-align: middle;
+        line-height: 20px; 
+    }
+
+    .minus{
+        width: 20px;
+        height: 20px;
+        background: #f2f2f2;
+        border-radius: 50px;
+        padding: 0;
+        border: 1px solid #2200ff;
+        vertical-align: middle;
+    }
+
+    input {
+        height: 34px;
+        width: 100px;
+        text-align: center;
+        font-size: 26px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    .balance{
+        color: aliceblue; 
+        position:absolute; 
+        top: 10px; 
+        right: 10px; 
+        font-size: 24px;
+    }
+
+    .results{
+        color: aliceblue; 
+        position: absolute;
+        bottom: 3%;
+        left: 1%;
+        font-size: 16px; 
+    }
+
+    .button {
+        width: 50px;
+        height: 20px;
+        margin: 5px;
+    }
+
+    .controls {
+        width: 100%;
+        position: fixed;
+        bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container {
+        width: 100%;
+        height: 80%;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img_container {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px){
+    .cards{
+        position: absolute;
+        left: 50%;
+        top: 34%;
+        width: 90px;
+        height: 100px;
+        transform: translate(-50%, 0%);
+    }
+
+    .table1 {
+        position: absolute; 
+        top: 4%;
+        height: 95%;
+        width: 95%;
+        left: 2.5%;
+        margin-top: auto;
+    }
+
+    .centered-div {
+        position: absolute;
+        top: 48%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: lightgray;
+    }
+
+    .number {
+        position: absolute; 
+        right: .5%;     
+        top: 5%;        
+        margin: 0;      
+    }
+
+    .plus {
+        width: 20px;
+        height: 20px;
+        background: #f2f2f2;
+        border-radius: 50px;
+        padding: 0; 
+        border: 1px solid #2200ff;
+        vertical-align: middle;
+        line-height: 20px; 
+    }
+
+    .minus{
+        width: 20px;
+        height: 20px;
+        background: #f2f2f2;
+        border-radius: 50px;
+        padding: 0;
+        border: 1px solid #2200ff;
+        vertical-align: middle;
+    }
+
+    input {
+        height: 34px;
+        width: 100px;
+        text-align: center;
+        font-size: 26px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    .balance{
+        color: aliceblue; 
+        position:absolute; 
+        top: 10px; 
+        right: 10px; 
+        font-size: 24px;
+    }
+
+    .results{
+        color: aliceblue; 
+        position: absolute;
+        bottom: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 24px; 
+    }
+
+    .button {
+        width: 90px;
+        height: 40px;
+        margin: 5px;
+    }
+
+    .controls {
+        width: 100%;
+        position: fixed;
+        bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container {
+        width: 100%;
+        height: 80%;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img_container {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+@keyframes moveLeft {
+    from { transform: translateX(-30%) translateY(180%); }
+    to { transform: translateX(-120%) translateY(180%); } 
+}
+
+@keyframes moveRight {
+    from { transform: translateX(0%) translateY(180%); }
+    to { transform: translateX(120%) translateY(180%); } 
+}
+
+.moveLeft {
+    animation: moveLeft 1s forwards;
+}
+
+.moveRight {
+    animation: moveRight 1s forwards;
+}
+
+@keyframes moveLeft {
+    from { transform: translateX(-80%) translateY(180%); }
+    to { transform: translateX(-170%) translateY(180%); }
+}
+
+@keyframes moveRight {
+    from { transform: translateX(-50%) translateY(180%); }
+    to { transform: translateX(70%) translateY(180%); }
+}
+
+@keyframes shuffle1 {
+    0% {transform: translateX(-50%) translateY(0%);}
+    10% {transform: translateX(-40%) translateY(-10%);}
+    20% {transform: translateX(-50%) translateY(0%);}
+    30% {transform: translateX(-40%) translateY(-10%);}
+    40% {transform: translateX(-50%) translateY(0%);}
+    50% {transform: translateX(-40%) translateY(-10%);}
+    60% {transform: translateX(-50%) translateY(0%);}
+    70% {transform: translateX(-40%) translateY(-10%);}
+    80% {transform: translateX(-50%) translateY(0%);}
+    90% {transform: translateX(-40%) translateY(-10%);}
+    100% {transform: translateX(-50%) translateY(0%);}
+}
+
+.shuffleAnimation1 {
+    animation-name: shuffle1;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes shuffle2 {
+    0% {transform: translateX(-50%) translateY(0%);}
+    10% {transform: translateX(-60%) translateY(10%);}
+    20% {transform: translateX(-50%) translateY(0%);}
+    30% {transform: translateX(-60%) translateY(10%);}
+    40% {transform: translateX(-50%) translateY(0%);}
+    50% {transform: translateX(-60%) translateY(10%);}
+    60% {transform: translateX(-50%) translateY(0%);}
+    70% {transform: translateX(-60%) translateY(10%);}
+    80% {transform: translateX(-50%) translateY(0%);}
+    90% {transform: translateX(-60%) translateY(10%);}
+    100% {transform: translateX(-50%) translateY(0%);}
+}
+
+.shuffleAnimation2 {
+    animation-name: shuffle2;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes playerA2 {
+    0% {transform: translateX(-50%) translateY(0px);}
+    100% {transform: translateX(-140%) translateY(180%);}
+}
+
+@keyframes playerA3 {
+    0% {transform: translateX(-50%) translateY(0px);}
+    100% {transform: translateX(-110%) translateY(180%);}
+}
+
+@keyframes playerA4 {
+    0% {transform: translateX(-50%) translateY(0px);}
+    100% {transform: translateX(-80%) translateY(180%);}
+}
+
+@keyframes playerA5 {
+    0% {transform: translateX(-50%) translateY(0px);}
+    100% {transform: translateX(-50%) translateY(180%);}
+}
+
+@keyframes playerA6 {
+    0% {transform: translateX(-50%) translateY(0px);}
+    100% {transform: translateX(-20%) translateY(180%);}
+}
+
+@keyframes playerA7 {
+    0% {transform: translateX(-50%) translateY(0px);}
+    100% {transform: translateX(10%) translateY(180%);}
+}
+
+@keyframes playerB2 {
+    0% {transform: translateX(-50%) translateY(0px);}
+    100% {transform: translateX(100%) translateY(180%);}
+}
+
+@keyframes playerB3 {
+    0% {transform: translateX(-50%) translateY(0px);}
+    100% {transform: translateX(130%) translateY(180%);}
+}
+
+@keyframes playerB4 {
+    0% {transform: translateX(-50%) translateY(0px);}
+    100% {transform: translateX(160%) translateY(180%);}
+}
+
+@keyframes playerB5 {
+    0% {transform: translateX(-50%) translateY(0px);}
+    100% {transform: translateX(190%) translateY(180%);}
+}
+
+@keyframes playerB6 {
+    0% {transform: translateX(-50%) translateY(0px);}
+    100% {transform: translateX(220%) translateY(180%);}
+}
+
+@keyframes playerB7 {
+    0% {transform: translateX(-50%) translateY(0px);}
+    100% {transform: translateX(250%) translateY(180%);}
+}
+
+/* Player Animations */
+@keyframes player1 {
+    0% {transform: translateX(-50%) translateY(0px);}
+    100% {transform: translateX(-80%) translateY(180%);}
+}
+
+@keyframes player2 {
+    0% {transform: translateX(-50%) translateY(0px);}
+    100% {transform: translateX(-50%) translateY(180%);}
+}
+
+@keyframes player3 {
+    0% {transform: translateX(-50%) translateY(0px);}
+    100% {transform: translateX(-20%) translateY(180%);}
+}
+
+@keyframes player4 {
+    0% {transform: translateX(-50%) translateY(0px);}
+    100% {transform: translateX(10%) translateY(180%);}
+}
+
+@keyframes player5 {
+    0% {transform: translateX(-50%) translateY(0px);}
+    100% {transform: translateX(40%) translateY(180%);}
+}
+
+@keyframes player6 {
+    0% {transform: translateX(-50%) translateY(0px);}
+    100% {transform: translateX(70%) translateY(180%);}
+}
+
+@keyframes player7 {
+    0% {transform: translateX(-50%) translateY(0px);}
+    100% {transform: translateX(100%) translateY(180%);}
+}
+
+/* Dealer Animations */
+@keyframes dealer1 {
+    0% {transform: translateX(-50%) translateY(0px);}
+    100% {transform: translateX(-100%) translateY(-180%);}
+}
+
+@keyframes dealer2 {
+    0% {transform: translateX(-50%) translateY(0px);}
+    100% {transform: translateX(0%) translateY(-180%);}
+}
+
+@keyframes dealer3 {
+    0% {transform: translateX(-50%) translateY(0px);}
+    100% {transform: translateX(30%) translateY(-180%);}
+}
+
+@keyframes dealer4 {
+    0% {transform: translateX(-50%) translateY(0px);}
+    100% {transform: translateX(60%) translateY(-180%);}
+}
+
+@keyframes dealer5 {
+    0% {transform: translateX(-50%) translateY(0px);}
+    100% {transform: translateX(90%) translateY(-180%);}
+}
+
+@keyframes dealer6 {
+    0% {transform: translateX(-50%) translateY(0px);}
+    100% {transform: translateX(120%) translateY(-180%);}
+}
+
+@keyframes dealer7 {
+    0% {transform: translateX(-50%) translateY(0px);}
+    100% {transform: translateX(150%) translateY(-180%);}
+}
+
+.playerAnimationA2 { animation: playerA2 0.5s forwards; }
+.playerAnimationA3 { animation: playerA3 0.5s forwards; }
+.playerAnimationA4 { animation: playerA4 0.5s forwards; }
+.playerAnimationA5 { animation: playerA5 0.5s forwards; }
+.playerAnimationA6 { animation: playerA6 0.5s forwards; }
+.playerAnimationA7 { animation: playerA7 0.5s forwards; }
+
+.playerAnimationB2 { animation: playerB2 0.5s forwards; }
+.playerAnimationB3 { animation: playerB3 0.5s forwards; }
+.playerAnimationB4 { animation: playerB4 0.5s forwards; }
+.playerAnimationB5 { animation: playerB5 0.5s forwards; }
+.playerAnimationB6 { animation: playerB6 0.5s forwards; }
+.playerAnimationB7 { animation: playerB7 0.5s forwards; }
+
+.playerAnimation1 { animation: player1 0.5s forwards; }
+.playerAnimation2 { animation: player2 0.5s forwards; }
+.playerAnimation3 { animation: player3 0.5s forwards; }
+.playerAnimation4 { animation: player4 0.5s forwards; }
+.playerAnimation5 { animation: player5 0.5s forwards; }
+.playerAnimation6 { animation: player6 0.5s forwards; }
+.playerAnimation7 { animation: player7 0.5s forwards; }
+
+.dealerAnimation1 { animation: dealer1 0.5s forwards; }
+.dealerAnimation2 { animation: dealer2 0.5s forwards; }
+.dealerAnimation3 { animation: dealer3 0.5s forwards; }
+.dealerAnimation4 { animation: dealer4 0.5s forwards; }
+.dealerAnimation5 { animation: dealer5 0.5s forwards; }
+.dealerAnimation6 { animation: dealer6 0.5s forwards; }
+.dealerAnimation7 { animation: dealer7 0.5s forwards; }

@@ -3,20 +3,18 @@
 <head>
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="/static/style.css">
     <title>BlackJack Simulator</title>  
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 </head>
     <body>
 
         <div style="z-index: -1;" class="container">
-            <img class="table1" src="../static/table.png"/>
+            <img class="table1" src="/static/table.png"/>
         </div>
 
         <a href="/login" class="login">Login</a>
         <a href="/users" class="login">Users</a>
-        <h1 style="color: aliceblue; position: absolute; left: 1%; top: 5%;">{{ username }}</h1>
-        
         
         <div class="controls">
             <button class="button" id="button" onclick="startGame()">Deal</button>
@@ -48,6 +46,6 @@
         <div class="results" id="results">Result</div>
         <div class="balance" id="balance">Balance: $1000</div>
 
-        <script src="../static/code.js"></script>
+        <script src="/static/code.js"></script>
     </body>
 </html>

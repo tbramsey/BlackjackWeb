@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="../static/style.css">
+    <title>BlackJack Simulator</title>  
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+    <body>
+
+        <div style="z-index: -1;" class="container">
+            <img class="table1" src="../static/table.png"/>
+        </div>
+
+        <a href="/login" class="login">Login</a>
+        <a href="/users" class="login">Users</a>
+        <h1 style="color: aliceblue; position: absolute; left: 1%; top: 5%;">{{ username }}</h1>
+        
+        
+        <div class="controls">
+            <button class="button" id="button" onclick="startGame()">Deal</button>
+            <button class="button" id="button" onclick="hit()">Hit</button>
+            <button class="button" id="button" onclick="split()">Split</button>
+            <button class="button" id="button" onclick="double()">Double</button>
+            <button class="button" id="button" onclick="stay()">Stay</button>
+        </div>
+        
+        <div class="number">
+            <button class="minus"> - </button>
+            <input type="text" value="50"/>
+            <button class="plus"> + </button>
+        </div>
+
+        <label class="switch">
+            <input type="checkbox" id="switch">
+            <span class="slider"></span>
+        </label>
+
+        <span class="count" id="displayNumber"></span>
+
+        <div style="width: 100%; height: 100%;" id="card-container">
+            <img class="cards" id="shuffle1" src="../static/Back.png">
+            <img class="cards" id="shuffle2" src="../static/Back.png">
+            <img class="cards" id="shuffle3" src="../static/Back.png">
+        </div>
+
+        <div class="results" id="results">Result</div>
+        <div class="balance" id="balance">Balance: $1000</div>
+
+        <script src="../static/code.js"></script>
+    </body>
+</html>

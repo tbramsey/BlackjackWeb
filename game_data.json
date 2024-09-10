@@ -1,0 +1,174 @@
+{"dealerSum": 17, "yourSumA": 10, "yourSumB": 0, "dealerCards": [10, 7], "yourCardsA": [8, 2], "yourCardsB": [], "balance": 1000, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 14, "yourSumA": 21, "yourSumB": 0, "dealerCards": [8], "yourCardsA": [7, 4, 10], "yourCardsB": [], "balance": 950, "bet": 50, "action": "doubleA", "outcome": 0}
+{"dealerSum": 15, "yourSumA": 21, "yourSumB": 0, "dealerCards": [8, 6, 11], "yourCardsA": [7, 4, 10], "yourCardsB": [], "balance": 950, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 11, "yourSumA": 21, "yourSumB": 0, "dealerCards": [6], "yourCardsA": [9, 6, 6], "yourCardsB": [], "balance": 1050, "bet": 50, "action": "doubleA", "outcome": 0}
+{"dealerSum": 21, "yourSumA": 21, "yourSumB": 0, "dealerCards": [6, 5, 10], "yourCardsA": [9, 6, 6], "yourCardsB": [], "balance": 1050, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 12, "yourSumA": 15, "yourSumB": 0, "dealerCards": [2], "yourCardsA": [10, 3, 2], "yourCardsB": [], "balance": 1050, "bet": 50, "action": "doubleA", "outcome": 0}
+{"dealerSum": 22, "yourSumA": 15, "yourSumB": 0, "dealerCards": [2, 10, 10], "yourCardsA": [10, 3, 2], "yourCardsB": [], "balance": 1050, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 18, "yourSumA": 21, "yourSumB": 0, "dealerCards": [8, 10], "yourCardsA": [11, 10], "yourCardsB": [], "balance": 1150, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 14, "yourSumA": 7, "yourSumB": 7, "dealerCards": [10, 4], "yourCardsA": [7], "yourCardsB": [7], "balance": 1225, "bet": 50, "action": "split", "outcome": 0}
+{"dealerSum": 24, "yourSumA": 7, "yourSumB": 7, "dealerCards": [10, 4, 10], "yourCardsA": [7], "yourCardsB": [7], "balance": 1225, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 10, "yourSumA": 31, "yourSumB": 0, "dealerCards": [8], "yourCardsA": [10, 10, 11], "yourCardsB": [], "balance": 1325, "bet": 50, "action": "doubleA", "outcome": 0}
+{"dealerSum": 23, "yourSumA": 18, "yourSumB": 0, "dealerCards": [4, 7, 3, 9], "yourCardsA": [8, 10], "yourCardsB": [], "balance": 1175, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 21, "yourSumA": 10, "yourSumB": 0, "dealerCards": [11, 10], "yourCardsA": [6, 4], "yourCardsB": [], "balance": 1225, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 17, "yourSumA": 28, "yourSumB": 0, "dealerCards": [7, 10], "yourCardsA": [10, 10, 8], "yourCardsB": [], "balance": 1175, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 17, "yourSumA": 28, "yourSumB": 0, "dealerCards": [7], "yourCardsA": [10, 10, 8], "yourCardsB": [], "balance": 1175, "bet": 50, "action": "doubleA", "outcome": 0}
+{"dealerSum": 16, "yourSumA": 23, "yourSumB": 0, "dealerCards": [7], "yourCardsA": [10, 10, 3], "yourCardsB": [], "balance": 1075, "bet": 50, "action": "doubleA", "outcome": 0}
+{"dealerSum": 20, "yourSumA": 23, "yourSumB": 0, "dealerCards": [7, 9, 4], "yourCardsA": [10, 10, 3], "yourCardsB": [], "balance": 1075, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 17, "yourSumA": 5, "yourSumB": 0, "dealerCards": [5, 6, 6], "yourCardsA": [3, 2], "yourCardsB": [], "balance": 975, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 21, "yourSumA": 21, "yourSumB": 0, "dealerCards": [9, 4, 8], "yourCardsA": [11, 10], "yourCardsB": [], "balance": 925, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 16, "yourSumA": 29, "yourSumB": 0, "dealerCards": [10], "yourCardsA": [10, 10, 9], "yourCardsB": [], "balance": 950, "bet": 50, "action": "doubleA", "outcome": 0}
+{"dealerSum": 21, "yourSumA": 13, "yourSumB": 0, "dealerCards": [10, 11], "yourCardsA": [6, 6, 11], "yourCardsB": [], "balance": 1000, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 26, "yourSumA": 29, "yourSumB": 0, "dealerCards": [10, 6, 10], "yourCardsA": [10, 10, 9], "yourCardsB": [], "balance": 950, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 12, "yourSumA": 29, "yourSumB": 0, "dealerCards": [10], "yourCardsA": [10, 10, 9], "yourCardsB": [], "balance": 850, "bet": 50, "action": "hitA", "outcome": 0}
+{"dealerSum": 20, "yourSumA": 29, "yourSumB": 0, "dealerCards": [10, 2, 8], "yourCardsA": [10, 10, 9], "yourCardsB": [], "balance": 850, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 20, "yourSumA": 10, "yourSumB": 0, "dealerCards": [9], "yourCardsA": [4, 4, 2], "yourCardsB": [], "balance": 800, "bet": 50, "action": "doubleA", "outcome": 0}
+{"dealerSum": 20, "yourSumA": 10, "yourSumB": 0, "dealerCards": [9, 11], "yourCardsA": [4, 4, 2], "yourCardsB": [], "balance": 800, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 20, "yourSumA": 4, "yourSumB": 4, "dealerCards": [9, 11], "yourCardsA": [4, 4], "yourCardsB": [2], "balance": 700, "bet": 50, "action": "split", "outcome": 0}
+{"dealerSum": 6, "yourSumA": 22, "yourSumB": 0, "dealerCards": [3], "yourCardsA": [8, 10, 4], "yourCardsB": [], "balance": 700, "bet": 50, "action": "doubleA", "outcome": 0}
+{"dealerSum": 26, "yourSumA": 22, "yourSumB": 0, "dealerCards": [3, 3, 6, 4, 10], "yourCardsA": [8, 10, 4], "yourCardsB": [], "balance": 700, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 13, "yourSumA": 20, "yourSumB": 0, "dealerCards": [10], "yourCardsA": [2, 8, 10], "yourCardsB": [], "balance": 600, "bet": 50, "action": "doubleA", "outcome": 0}
+{"dealerSum": 23, "yourSumA": 20, "yourSumB": 0, "dealerCards": [10, 3, 10], "yourCardsA": [2, 8, 10], "yourCardsB": [], "balance": 600, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 11, "yourSumA": 28, "yourSumB": 0, "dealerCards": [5], "yourCardsA": [9, 10, 9], "yourCardsB": [], "balance": 700, "bet": 50, "action": "hitA", "outcome": 0}
+{"dealerSum": 23, "yourSumA": 28, "yourSumB": 0, "dealerCards": [5, 6, 2, 10], "yourCardsA": [9, 10, 9], "yourCardsB": [], "balance": 700, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 17, "yourSumA": 14, "yourSumB": 0, "dealerCards": [7, 10], "yourCardsA": [4, 10], "yourCardsB": [], "balance": 650, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 17, "yourSumA": 28, "yourSumB": 0, "dealerCards": [7], "yourCardsA": [7, 11, 10], "yourCardsB": [], "balance": 600, "bet": 50, "action": "doubleA", "outcome": 0}
+{"dealerSum": 17, "yourSumA": 18, "yourSumB": 0, "dealerCards": [7, 10], "yourCardsA": [7, 11, 10], "yourCardsB": [], "balance": 600, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 12, "yourSumA": 24, "yourSumB": 0, "dealerCards": [2], "yourCardsA": [9, 5, 10], "yourCardsB": [], "balance": 700, "bet": 50, "action": "hitA", "outcome": 0}
+{"dealerSum": 22, "yourSumA": 24, "yourSumB": 0, "dealerCards": [2, 10, 10], "yourCardsA": [9, 5, 10], "yourCardsB": [], "balance": 700, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 20, "yourSumA": 20, "yourSumB": 0, "dealerCards": [10], "yourCardsA": [5, 10, 5], "yourCardsB": [], "balance": 650, "bet": 50, "action": "doubleA", "outcome": 0}
+{"dealerSum": 20, "yourSumA": 20, "yourSumB": 0, "dealerCards": [10, 10], "yourCardsA": [5, 10, 5], "yourCardsB": [], "balance": 650, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 16, "yourSumA": 20, "yourSumB": 0, "dealerCards": [10], "yourCardsA": [5, 10, 5], "yourCardsB": [], "balance": 650, "bet": 50, "action": "hitA", "outcome": 0}
+{"dealerSum": 19, "yourSumA": 20, "yourSumB": 0, "dealerCards": [10, 6, 3], "yourCardsA": [5, 10, 5], "yourCardsB": [], "balance": 650, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 9, "yourSumA": 10, "yourSumB": 10, "dealerCards": [4, 5], "yourCardsA": [10], "yourCardsB": [10], "balance": 700, "bet": 50, "action": "split", "outcome": 0}
+{"dealerSum": 23, "yourSumA": 10, "yourSumB": 10, "dealerCards": [4, 5, 4, 10], "yourCardsA": [10], "yourCardsB": [10], "balance": 700, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 10, "yourSumA": 15, "yourSumB": 0, "dealerCards": [5], "yourCardsA": [2, 3, 10], "yourCardsB": [], "balance": 800, "bet": 50, "action": "hitA", "outcome": 0}
+{"dealerSum": 10, "yourSumA": 20, "yourSumB": 0, "dealerCards": [5], "yourCardsA": [2, 3, 10, 5], "yourCardsB": [], "balance": 800, "bet": 50, "action": "hitA", "outcome": 0}
+{"dealerSum": 10, "yourSumA": 30, "yourSumB": 0, "dealerCards": [5], "yourCardsA": [2, 3, 10, 5, 10], "yourCardsB": [], "balance": 800, "bet": 50, "action": "hitA", "outcome": 0}
+{"dealerSum": 20, "yourSumA": 30, "yourSumB": 0, "dealerCards": [5, 5, 10], "yourCardsA": [2, 3, 10, 5, 10], "yourCardsB": [], "balance": 800, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 13, "yourSumA": 23, "yourSumB": 0, "dealerCards": [10], "yourCardsA": [10, 6, 7], "yourCardsB": [], "balance": 750, "bet": 50, "action": "doubleA", "outcome": 0}
+{"dealerSum": 18, "yourSumA": 23, "yourSumB": 0, "dealerCards": [10, 3, 5], "yourCardsA": [10, 6, 7], "yourCardsB": [], "balance": 750, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 19, "yourSumA": 18, "yourSumB": 0, "dealerCards": [4, 10, 5], "yourCardsA": [7, 11], "yourCardsB": [], "balance": 650, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 17, "yourSumA": 21, "yourSumB": 0, "dealerCards": [7, 10], "yourCardsA": [10, 11], "yourCardsB": [], "balance": 600, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 17, "yourSumA": 10, "yourSumB": 0, "dealerCards": [5, 10], "yourCardsA": [8, 2], "yourCardsB": [], "balance": 675, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 22, "yourSumA": 21, "yourSumB": 0, "dealerCards": [5, 7, 10], "yourCardsA": [11, 10], "yourCardsB": [], "balance": 1000, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 19, "yourSumA": 25, "yourSumB": 0, "dealerCards": [10], "yourCardsA": [8, 11, 6], "yourCardsB": [], "balance": 1075, "bet": 50, "action": "doubleA", "outcome": 0}
+{"dealerSum": 19, "yourSumA": 15, "yourSumB": 0, "dealerCards": [10, 9], "yourCardsA": [8, 11, 6], "yourCardsB": [], "balance": 1075, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 19, "yourSumA": 15, "yourSumB": 0, "dealerCards": [9, 10], "yourCardsA": [8, 7], "yourCardsB": [], "balance": 975, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 17, "yourSumA": 9, "yourSumB": 0, "dealerCards": [4, 2, 6, 5], "yourCardsA": [2, 7], "yourCardsB": [], "balance": 925, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 21, "yourSumA": 13, "yourSumB": 0, "dealerCards": [10, 6, 5], "yourCardsA": [7, 6], "yourCardsB": [], "balance": 875, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 17, "yourSumA": 21, "yourSumB": 0, "dealerCards": [8], "yourCardsA": [9, 2, 10], "yourCardsB": [], "balance": 825, "bet": 50, "action": "doubleA", "outcome": 0}
+{"dealerSum": 17, "yourSumA": 21, "yourSumB": 0, "dealerCards": [8, 9], "yourCardsA": [9, 2, 10], "yourCardsB": [], "balance": 825, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 17, "yourSumA": 13, "yourSumB": 0, "dealerCards": [3, 8, 6], "yourCardsA": [9, 4], "yourCardsB": [], "balance": 925, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 12, "yourSumA": 30, "yourSumB": 0, "dealerCards": [3], "yourCardsA": [3, 7, 10, 10], "yourCardsB": [], "balance": 875, "bet": 50, "action": "hitA", "outcome": 0}
+{"dealerSum": 12, "yourSumA": 20, "yourSumB": 0, "dealerCards": [3], "yourCardsA": [3, 7, 10], "yourCardsB": [], "balance": 875, "bet": 50, "action": "hitA", "outcome": 0}
+{"dealerSum": 18, "yourSumA": 30, "yourSumB": 0, "dealerCards": [3, 9, 6], "yourCardsA": [3, 7, 10, 10], "yourCardsB": [], "balance": 875, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 6, "yourSumA": 28, "yourSumB": 0, "dealerCards": [3], "yourCardsA": [10, 8, 10], "yourCardsB": [], "balance": 825, "bet": 50, "action": "doubleA", "outcome": 0}
+{"dealerSum": 25, "yourSumA": 28, "yourSumB": 0, "dealerCards": [3, 3, 10, 9], "yourCardsA": [10, 8, 10], "yourCardsB": [], "balance": 825, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 19, "yourSumA": 18, "yourSumB": 0, "dealerCards": [9, 10], "yourCardsA": [11, 7], "yourCardsB": [], "balance": 725, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 19, "yourSumA": 21, "yourSumB": 0, "dealerCards": [10, 2, 7], "yourCardsA": [11, 10], "yourCardsB": [], "balance": 675, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 17, "yourSumA": 26, "yourSumB": 0, "dealerCards": [7], "yourCardsA": [7, 9, 10], "yourCardsB": [], "balance": 750, "bet": 50, "action": "doubleA", "outcome": 0}
+{"dealerSum": 17, "yourSumA": 26, "yourSumB": 0, "dealerCards": [7, 10], "yourCardsA": [7, 9, 10], "yourCardsB": [], "balance": 750, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 13, "yourSumA": 23, "yourSumB": 0, "dealerCards": [5], "yourCardsA": [11, 2, 10], "yourCardsB": [], "balance": 650, "bet": 50, "action": "doubleA", "outcome": 0}
+{"dealerSum": 14, "yourSumA": 13, "yourSumB": 0, "dealerCards": [5, 8, 11], "yourCardsA": [11, 2, 10], "yourCardsB": [], "balance": 650, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 16, "yourSumA": 25, "yourSumB": 0, "dealerCards": [7], "yourCardsA": [5, 9, 11], "yourCardsB": [], "balance": 550, "bet": 50, "action": "doubleA", "outcome": 0}
+{"dealerSum": 20, "yourSumA": 15, "yourSumB": 0, "dealerCards": [7, 9, 4], "yourCardsA": [5, 9, 11], "yourCardsB": [], "balance": 550, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 22, "yourSumA": 20, "yourSumB": 0, "dealerCards": [3, 9, 10], "yourCardsA": [10, 10], "yourCardsB": [], "balance": 450, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 13, "yourSumA": 22, "yourSumB": 0, "dealerCards": [11], "yourCardsA": [11, 8, 3], "yourCardsB": [], "balance": 500, "bet": 50, "action": "doubleA", "outcome": 0}
+{"dealerSum": 13, "yourSumA": 12, "yourSumB": 0, "dealerCards": [11, 2, 10], "yourCardsA": [11, 8, 3], "yourCardsB": [], "balance": 500, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 10, "yourSumA": 26, "yourSumB": 0, "dealerCards": [2], "yourCardsA": [11, 5, 10], "yourCardsB": [], "balance": 400, "bet": 50, "action": "doubleA", "outcome": 0}
+{"dealerSum": 20, "yourSumA": 16, "yourSumB": 0, "dealerCards": [2, 8, 10], "yourCardsA": [11, 5, 10], "yourCardsB": [], "balance": 400, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 8, "yourSumA": 19, "yourSumB": 0, "dealerCards": [6], "yourCardsA": [2, 7, 10], "yourCardsB": [], "balance": 300, "bet": 50, "action": "doubleA", "outcome": 0}
+{"dealerSum": 18, "yourSumA": 19, "yourSumB": 0, "dealerCards": [6, 2, 10], "yourCardsA": [2, 7, 10], "yourCardsB": [], "balance": 300, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 21, "yourSumA": 21, "yourSumB": 0, "dealerCards": [11], "yourCardsA": [4, 7, 10], "yourCardsB": [], "balance": 400, "bet": 50, "action": "doubleA", "outcome": 0}
+{"dealerSum": 21, "yourSumA": 21, "yourSumB": 0, "dealerCards": [11, 10], "yourCardsA": [4, 7, 10], "yourCardsB": [], "balance": 400, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 6, "yourSumA": 25, "yourSumB": 0, "dealerCards": [2], "yourCardsA": [6, 10, 9], "yourCardsB": [], "balance": 400, "bet": 50, "action": "hitA", "outcome": 0}
+{"dealerSum": 24, "yourSumA": 25, "yourSumB": 0, "dealerCards": [2, 4, 10, 8], "yourCardsA": [6, 10, 9], "yourCardsB": [], "balance": 400, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 18, "yourSumA": 20, "yourSumB": 0, "dealerCards": [8, 2, 8], "yourCardsA": [10, 10], "yourCardsB": [], "balance": 350, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 24, "yourSumA": 9, "yourSumB": 0, "dealerCards": [2, 8, 4, 10], "yourCardsA": [4, 5], "yourCardsB": [], "balance": 400, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 13, "yourSumA": 24, "yourSumB": 0, "dealerCards": [5], "yourCardsA": [6, 10, 8], "yourCardsB": [], "balance": 450, "bet": 50, "action": "doubleA", "outcome": 0}
+{"dealerSum": 20, "yourSumA": 24, "yourSumB": 0, "dealerCards": [5, 8, 7], "yourCardsA": [6, 10, 8], "yourCardsB": [], "balance": 450, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 16, "yourSumA": 26, "yourSumB": 0, "dealerCards": [6], "yourCardsA": [5, 10, 11], "yourCardsB": [], "balance": 350, "bet": 50, "action": "hitA", "outcome": 0}
+{"dealerSum": 24, "yourSumA": 16, "yourSumB": 0, "dealerCards": [6, 10, 8], "yourCardsA": [5, 10, 11], "yourCardsB": [], "balance": 350, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 8, "yourSumA": 24, "yourSumB": 0, "dealerCards": [3], "yourCardsA": [10, 8, 6], "yourCardsB": [], "balance": 400, "bet": 50, "action": "hitA", "outcome": 0}
+{"dealerSum": 20, "yourSumA": 24, "yourSumB": 0, "dealerCards": [3, 5, 2, 10], "yourCardsA": [10, 8, 6], "yourCardsB": [], "balance": 400, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 13, "yourSumA": 20, "yourSumB": 0, "dealerCards": [3], "yourCardsA": [2, 8, 10], "yourCardsB": [], "balance": 350, "bet": 50, "action": "hitA", "outcome": 0}
+{"dealerSum": 13, "yourSumA": 24, "yourSumB": 0, "dealerCards": [3], "yourCardsA": [2, 8, 10, 4], "yourCardsB": [], "balance": 350, "bet": 50, "action": "hitA", "outcome": 0}
+{"dealerSum": 23, "yourSumA": 24, "yourSumB": 0, "dealerCards": [3, 10, 10], "yourCardsA": [2, 8, 10, 4], "yourCardsB": [], "balance": 350, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 18, "yourSumA": 25, "yourSumB": 0, "dealerCards": [9], "yourCardsA": [5, 10, 10], "yourCardsB": [], "balance": 300, "bet": 50, "action": "hitA", "outcome": 0}
+{"dealerSum": 18, "yourSumA": 25, "yourSumB": 0, "dealerCards": [9, 9], "yourCardsA": [5, 10, 10], "yourCardsB": [], "balance": 300, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 20, "yourSumA": 16, "yourSumB": 0, "dealerCards": [10], "yourCardsA": [2, 11, 3], "yourCardsB": [], "balance": 250, "bet": 50, "action": "hitA", "outcome": 0}
+{"dealerSum": 20, "yourSumA": 26, "yourSumB": 0, "dealerCards": [10], "yourCardsA": [2, 11, 3, 10], "yourCardsB": [], "balance": 250, "bet": 50, "action": "hitA", "outcome": 0}
+{"dealerSum": 20, "yourSumA": 16, "yourSumB": 0, "dealerCards": [10, 10], "yourCardsA": [2, 11, 3, 10], "yourCardsB": [], "balance": 250, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 23, "yourSumA": 20, "yourSumB": 0, "dealerCards": [8, 5, 10], "yourCardsA": [10, 10], "yourCardsB": [], "balance": 200, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 26, "yourSumA": 10, "yourSumB": 0, "dealerCards": [4, 10, 2, 10], "yourCardsA": [4, 6], "yourCardsB": [], "balance": 1000, "bet": "250", "action": "stay", "outcome": 0}
+{"dealerSum": 20, "yourSumA": 11, "yourSumB": 0, "dealerCards": [10, 10], "yourCardsA": [7, 4], "yourCardsB": [], "balance": 1000, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 20, "yourSumA": 16, "yourSumB": 0, "dealerCards": [9, 11], "yourCardsA": [11, 5], "yourCardsB": [], "balance": 950, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 20, "yourSumA": 20, "yourSumB": 0, "dealerCards": [10, 10], "yourCardsA": [10, 10], "yourCardsB": [], "balance": 1000, "bet": "175", "action": "stay", "outcome": 0}
+{"dealerSum": 19, "yourSumA": 17, "yourSumB": 0, "dealerCards": [2, 11, 6], "yourCardsA": [11, 6], "yourCardsB": [], "balance": 1000, "bet": "175", "action": "stay", "outcome": 0}
+{"dealerSum": 17, "yourSumA": 20, "yourSumB": 0, "dealerCards": [4, 10, 3], "yourCardsA": [10, 10], "yourCardsB": [], "balance": 825, "bet": "175", "action": "stay", "outcome": 0}
+{"dealerSum": 20, "yourSumA": 14, "yourSumB": 0, "dealerCards": [10, 10], "yourCardsA": [10, 4], "yourCardsB": [], "balance": 1000, "bet": "200", "action": "stay", "outcome": 0}
+{"dealerSum": 25, "yourSumA": 20, "yourSumB": 0, "dealerCards": [5, 10, 10], "yourCardsA": [9, 11], "yourCardsB": [], "balance": 800, "bet": "200", "action": "stay", "outcome": 0}
+{"dealerSum": 16, "yourSumA": 11, "yourSumB": 0, "dealerCards": [11, 5, 10], "yourCardsA": [8, 3], "yourCardsB": [], "balance": 1000, "bet": "150", "action": "stay", "outcome": 0}
+{"dealerSum": 21, "yourSumA": 20, "yourSumB": 0, "dealerCards": [6, 5, 10], "yourCardsA": [10, 10], "yourCardsB": [], "balance": 850, "bet": "150", "action": "stay", "outcome": 0}
+{"dealerSum": 19, "yourSumA": 21, "yourSumB": 0, "dealerCards": [9, 10], "yourCardsA": [10, 11], "yourCardsB": [], "balance": 700, "bet": "150", "action": "stay", "outcome": 0}
+{"dealerSum": 23, "yourSumA": 20, "yourSumB": 0, "dealerCards": [10, 3, 10], "yourCardsA": [10, 10], "yourCardsB": [], "balance": 925, "bet": "150", "action": "stay", "outcome": 0}
+{"dealerSum": 20, "yourSumA": 18, "yourSumB": 0, "dealerCards": [11, 6, 3], "yourCardsA": [10, 8], "yourCardsB": [], "balance": 1000, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 26, "yourSumA": 8, "yourSumB": 0, "dealerCards": [7, 9, 10], "yourCardsA": [2, 6], "yourCardsB": [], "balance": 950, "bet": "225", "action": "stay", "outcome": 0}
+{"dealerSum": 20, "yourSumA": 17, "yourSumB": 0, "dealerCards": [2, 4, 4, 10], "yourCardsA": [8, 9], "yourCardsB": [], "balance": 1000, "bet": "225", "action": "stay", "outcome": 0}
+{"dealerSum": 17, "yourSumA": 19, "yourSumB": 0, "dealerCards": [8, 9], "yourCardsA": [10, 9], "yourCardsB": [], "balance": 1000, "bet": "150", "action": "stay", "outcome": 0}
+{"dealerSum": 26, "yourSumA": 18, "yourSumB": 0, "dealerCards": [3, 4, 9, 10], "yourCardsA": [8, 10], "yourCardsB": [], "balance": 1000, "bet": "200", "action": "stay", "outcome": 0}
+{"dealerSum": 16, "yourSumA": 16, "yourSumB": 0, "dealerCards": [10, 3, 2, 11], "yourCardsA": [6, 10], "yourCardsB": [], "balance": 1000, "bet": "175", "action": "stay", "outcome": 0}
+{"dealerSum": 20, "yourSumA": 15, "yourSumB": 0, "dealerCards": [10, 10], "yourCardsA": [5, 10], "yourCardsB": [], "balance": 1000, "bet": "175", "action": "stay", "outcome": 0}
+{"dealerSum": 19, "yourSumA": 21, "yourSumB": 0, "dealerCards": [9, 10], "yourCardsA": [10, 11], "yourCardsB": [], "balance": 825, "bet": "175", "action": "stay", "outcome": 0}
+{"dealerSum": 18, "yourSumA": 14, "yourSumB": 0, "dealerCards": [10, 8], "yourCardsA": [10, 4], "yourCardsB": [], "balance": 1087.5, "bet": "175", "action": "stay", "outcome": 0}
+{"dealerSum": 21, "yourSumA": 12, "yourSumB": 0, "dealerCards": [4, 7, 10], "yourCardsA": [2, 10], "yourCardsB": [], "balance": 1000, "bet": "175", "action": "stay", "outcome": 0}
+{"dealerSum": 17, "yourSumA": 18, "yourSumB": 0, "dealerCards": [10, 7], "yourCardsA": [10, 8], "yourCardsB": [], "balance": 825, "bet": "175", "action": "stay", "outcome": 0}
+{"dealerSum": 21, "yourSumA": 15, "yourSumB": 0, "dealerCards": [2, 10, 9], "yourCardsA": [11, 4], "yourCardsB": [], "balance": 1000, "bet": "175", "action": "stay", "outcome": 0}
+{"dealerSum": 19, "yourSumA": 20, "yourSumB": 0, "dealerCards": [5, 5, 9], "yourCardsA": [9, 11], "yourCardsB": [], "balance": 825, "bet": "175", "action": "stay", "outcome": 0}
+{"dealerSum": 13, "yourSumA": 14, "yourSumB": 0, "dealerCards": [11, 2, 10], "yourCardsA": [10, 4], "yourCardsB": [], "balance": 1000, "bet": "175", "action": "stay", "outcome": 0}
+{"dealerSum": 19, "yourSumA": 14, "yourSumB": 0, "dealerCards": [9, 10], "yourCardsA": [4, 10], "yourCardsB": [], "balance": 1000, "bet": "175", "action": "stay", "outcome": 0}
+{"dealerSum": 19, "yourSumA": 12, "yourSumB": 0, "dealerCards": [11, 2, 6], "yourCardsA": [2, 10], "yourCardsB": [], "balance": 825, "bet": "175", "action": "stay", "outcome": 0}
+{"dealerSum": 20, "yourSumA": 14, "yourSumB": 0, "dealerCards": [10, 10], "yourCardsA": [9, 5], "yourCardsB": [], "balance": 1000, "bet": "175", "action": "stay", "outcome": 0}
+{"dealerSum": 20, "yourSumA": 15, "yourSumB": 0, "dealerCards": [5, 4, 11], "yourCardsA": [5, 10], "yourCardsB": [], "balance": 825, "bet": "225", "action": "stay", "outcome": 0}
+{"dealerSum": 19, "yourSumA": 10, "yourSumB": 0, "dealerCards": [9, 10], "yourCardsA": [2, 8], "yourCardsB": [], "balance": 600, "bet": "225", "action": "stay", "outcome": 0}
+{"dealerSum": 23, "yourSumA": 20, "yourSumB": 0, "dealerCards": [10, 3, 10], "yourCardsA": [10, 10], "yourCardsB": [], "balance": 375, "bet": "150", "action": "stay", "outcome": 0}
+{"dealerSum": 20, "yourSumA": 13, "yourSumB": 0, "dealerCards": [10, 2, 4, 4], "yourCardsA": [3, 10], "yourCardsB": [], "balance": 525, "bet": "150", "action": "stay", "outcome": 0}
+{"dealerSum": 20, "yourSumA": 21, "yourSumB": 0, "dealerCards": [10, 10], "yourCardsA": [10, 11], "yourCardsB": [], "balance": 375, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 20, "yourSumA": 18, "yourSumB": 0, "dealerCards": [10, 10], "yourCardsA": [10, 8], "yourCardsB": [], "balance": 450, "bet": "125", "action": "stay", "outcome": 0}
+{"dealerSum": 22, "yourSumA": 17, "yourSumB": 0, "dealerCards": [6, 6, 10], "yourCardsA": [10, 7], "yourCardsB": [], "balance": 325, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 21, "yourSumA": 16, "yourSumB": 0, "dealerCards": [2, 8, 11], "yourCardsA": [10, 6], "yourCardsB": [], "balance": 375, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 20, "yourSumA": 16, "yourSumB": 0, "dealerCards": [10, 10], "yourCardsA": [6, 10], "yourCardsB": [], "balance": 325, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 0, "yourSumA": 10, "yourSumB": 0, "dealerCards": [], "yourCardsA": [10], "yourCardsB": [], "balance": 275, "bet": 50, "action": "hitA", "outcome": 0}
+{"dealerSum": 20, "yourSumA": 17, "yourSumB": 0, "dealerCards": [10, 10], "yourCardsA": [7, 10], "yourCardsB": [], "balance": 275, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 26, "yourSumA": 20, "yourSumB": 0, "dealerCards": [6, 10, 10], "yourCardsA": [10, 10], "yourCardsB": [], "balance": 225, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 26, "yourSumA": 19, "yourSumB": 0, "dealerCards": [6, 10, 10], "yourCardsA": [9, 10], "yourCardsB": [], "balance": 275, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 12, "yourSumA": 22, "yourSumB": 0, "dealerCards": [10], "yourCardsA": [2, 11, 9], "yourCardsB": [], "balance": 325, "bet": 50, "action": "hitA", "outcome": 0}
+{"dealerSum": 12, "yourSumA": 32, "yourSumB": 0, "dealerCards": [10], "yourCardsA": [2, 11, 9, 10], "yourCardsB": [], "balance": 325, "bet": 50, "action": "hitA", "outcome": 0}
+{"dealerSum": 17, "yourSumA": 22, "yourSumB": 0, "dealerCards": [10, 2, 5], "yourCardsA": [2, 11, 9, 10], "yourCardsB": [], "balance": 325, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 0, "yourSumA": 10, "yourSumB": 0, "dealerCards": [], "yourCardsA": [10], "yourCardsB": [], "balance": 1000, "bet": 50, "action": "hitA", "outcome": 0}
+{"dealerSum": 18, "yourSumA": 18, "yourSumB": 0, "dealerCards": [5, 11, 2], "yourCardsA": [9, 9], "yourCardsB": [], "balance": 1000, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 19, "yourSumA": 17, "yourSumB": 0, "dealerCards": [11, 8], "yourCardsA": [10, 7], "yourCardsB": [], "balance": 1000, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 22, "yourSumA": 19, "yourSumB": 0, "dealerCards": [10, 4, 2, 6], "yourCardsA": [10, 9], "yourCardsB": [], "balance": 950, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 17, "yourSumA": 11, "yourSumB": 0, "dealerCards": [5, 11, 11], "yourCardsA": [9, 2], "yourCardsB": [], "balance": 1000, "bet": "125", "action": "stay", "outcome": 0}
+{"dealerSum": 0, "yourSumA": 5, "yourSumB": 0, "dealerCards": [], "yourCardsA": [5], "yourCardsB": [], "balance": 875, "bet": "100", "action": "hitA", "outcome": 0}
+{"dealerSum": 21, "yourSumA": 16, "yourSumB": 0, "dealerCards": [8, 3, 5, 5], "yourCardsA": [9, 7], "yourCardsB": [], "balance": 875, "bet": "100", "action": "stay", "outcome": 0}
+{"dealerSum": 18, "yourSumA": 18, "yourSumB": 0, "dealerCards": [5, 7, 6], "yourCardsA": [8, 10], "yourCardsB": [], "balance": 1000, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 24, "yourSumA": 13, "yourSumB": 0, "dealerCards": [5, 9, 10], "yourCardsA": [3, 10], "yourCardsB": [], "balance": 775, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 23, "yourSumA": 21, "yourSumB": 0, "dealerCards": [3, 10, 10], "yourCardsA": [10, 11], "yourCardsB": [], "balance": 825, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 20, "yourSumA": 12, "yourSumB": 0, "dealerCards": [10, 10], "yourCardsA": [10, 2], "yourCardsB": [], "balance": 1000, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 20, "yourSumA": 19, "yourSumB": 0, "dealerCards": [11, 3, 6], "yourCardsA": [11, 8], "yourCardsB": [], "balance": 950, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 23, "yourSumA": 15, "yourSumB": 0, "dealerCards": [9, 7, 7], "yourCardsA": [10, 5], "yourCardsB": [], "balance": 900, "bet": "150", "action": "stay", "outcome": 0}
+{"dealerSum": 24, "yourSumA": 9, "yourSumB": 0, "dealerCards": [3, 4, 7, 10], "yourCardsA": [7, 2], "yourCardsB": [], "balance": 1050, "bet": "150", "action": "stay", "outcome": 0}
+{"dealerSum": 18, "yourSumA": 18, "yourSumB": 0, "dealerCards": [5, 3, 3, 3, 4], "yourCardsA": [10, 8], "yourCardsB": [], "balance": 1200, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 18, "yourSumA": 18, "yourSumB": 0, "dealerCards": [3, 10, 5], "yourCardsA": [11, 7], "yourCardsB": [], "balance": 1000, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 19, "yourSumA": 17, "yourSumB": 0, "dealerCards": [5, 6, 8], "yourCardsA": [11, 6], "yourCardsB": [], "balance": 1000, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 24, "yourSumA": 15, "yourSumB": 0, "dealerCards": [4, 10, 10], "yourCardsA": [11, 4], "yourCardsB": [], "balance": 950, "bet": "225", "action": "stay", "outcome": 0}
+{"dealerSum": 16, "yourSumA": 7, "yourSumB": 0, "dealerCards": [5, 11, 10], "yourCardsA": [2, 5], "yourCardsB": [], "balance": 1000, "bet": "225", "action": "stay", "outcome": 0}
+{"dealerSum": 20, "yourSumA": 14, "yourSumB": 0, "dealerCards": [10, 10], "yourCardsA": [3, 11], "yourCardsB": [], "balance": 1000, "bet": "175", "action": "stay", "outcome": 0}
+{"dealerSum": 17, "yourSumA": 17, "yourSumB": 0, "dealerCards": [10, 6, 11], "yourCardsA": [7, 10], "yourCardsB": [], "balance": 825, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 20, "yourSumA": 4, "yourSumB": 0, "dealerCards": [4, 5, 3, 8], "yourCardsA": [2, 2], "yourCardsB": [], "balance": 825, "bet": "175", "action": "stay", "outcome": 0}
+{"dealerSum": 22, "yourSumA": 9, "yourSumB": 0, "dealerCards": [10, 4, 8], "yourCardsA": [3, 6], "yourCardsB": [], "balance": 1000, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 0, "yourSumA": 10, "yourSumB": 0, "dealerCards": [], "yourCardsA": [10], "yourCardsB": [], "balance": 1050, "bet": 50, "action": "hitA", "outcome": 0}
+{"dealerSum": 18, "yourSumA": 15, "yourSumB": 0, "dealerCards": [4, 10, 4], "yourCardsA": [8, 7], "yourCardsB": [], "balance": 1000, "bet": 50, "action": "stay", "outcome": 0}
+{"dealerSum": 16, "yourSumA": 13, "yourSumB": 0, "dealerCards": [10, 5, 11], "yourCardsA": [6, 7], "yourCardsB": [], "balance": 950, "bet": "375", "action": "stay", "outcome": 0}

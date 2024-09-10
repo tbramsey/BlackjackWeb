@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../static/login.css">
+</head>
+<body>
+
+<h2>Login Form</h2>
+
+<form action="/login" method="post">
+
+  <div class="container">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+        
+    <button type="submit" >Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn" onclick="window.location.href='/'">Cancel</button>
+    <button type="button" class="newbtn" onclick="window.location.href='/register'">New User</button>
+    <span class="psw">Forgot <a href="/">password?</a></span>
+  </div>
+</form>
+
+</body>
+</html>
